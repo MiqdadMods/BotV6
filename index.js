@@ -123,7 +123,7 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: '⌛ Wait  Scaning⌛',
+				wait: '*WAIT PROSES!!',
 				success: '✔️ Berhasil ✔️',
 				error: {
 					stick: '❌ Gagal, terjadi kesalahan saat mengkonversi gambar ke sticker ❌',
@@ -343,7 +343,7 @@ async function starts() {
 					case 'owner':
                 case 'creator':
                   client.sendMessage(from, {displayname: "Jeff", vcard: vcard}, MessageType.contact, { quoted: mek})
-               client.sendMessage(from, 'Nih Nomor Owner , Jangan Di Galakin Ya Ynk:):*',MessageType.text, { quoted: mek} )
+               client.sendMessage(from, 'Nih Nomor Owner , Jangan Di Galakin Ya Anjg:V',MessageType.text, { quoted: mek} )
                 break
 				/*case 'loli':
 					loli.getSFWLoli(async (err, res) => {
